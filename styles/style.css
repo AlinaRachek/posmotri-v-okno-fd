@@ -132,6 +132,7 @@ ol {
   line-height: 94%;
   text-transform: uppercase;
   background-color: #1b1919;
+  margin-bottom: 26px;
 }
 .content__accent {
   color: #545050;
@@ -150,10 +151,9 @@ ol {
   display: flex;
   flex-direction: column;
   gap: 30px;
-  height: 399px;
+  height: 298px;
   position: relative;
   overflow-y: scroll;
-  overflow-x: hidden;
 }
 
 .content__list-item {
@@ -311,6 +311,7 @@ input:focus {
 
 .button:focus-visible {
   outline: white 1px solid;
+  outline-offset: 3px;
 }
 
 /* Кастомный скроллбар */
